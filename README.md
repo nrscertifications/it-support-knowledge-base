@@ -44,10 +44,10 @@ This structure is designed to reflect the type of clear documentation expected i
 
 | Case Study | Area | Status |
 |---|---|---|
-| Windows Boot Priority / BIOS Boot Device Issue | Windows / BIOS / Boot Troubleshooting | Planned |
+| Windows Boot Priority / BIOS Boot Device Issue | Windows / BIOS / Boot Troubleshooting | completed |
 | Windows Slow Performance Cleanup | Windows Support / Endpoint Troubleshooting | Planned |
 | Internet or Wi-Fi Connectivity Troubleshooting | Networking / User Support | Planned |
-| Android Data Sync and SIM Connectivity Issue | Mobile Device Support | Planned |
+| Android Data Sync and SIM Connectivity Issue | Mobile Device Support | completed |
 | Anti-Malware Setup and Endpoint Protection | Security / Endpoint Support | Planned |
 | Hardware or Peripheral Recommendation | User Support / Hardware | Planned |
 
