@@ -41,7 +41,7 @@ All case studies within this repository adhere to standard IT ticketing and KB f
 * **Hardware:** Endpoint laptops/desktops, BIOS/UEFI firmware, mobile devices and peripherals.
 * **Core Concepts:** Boot sequencing, cloud account synchronization, endpoint troubleshooting, mobile device support and management.
 
-### Repository Structure
+## Repository Structure
 This repository is organized to separate active case studies from templates and configuration guidelines:
 
 ```text
@@ -54,7 +54,5 @@ it-support-troubleshooting-notes/
 │   ├── android-data-sync-sim-issue.md
 │   ├── anti-malware-endpoint-setup.md
 │   └── hardware-peripheral-recommendation.md
-└── templates/
-    └── troubleshooting-note-template.md
 └── templates/
     └── troubleshooting-note-template.md
