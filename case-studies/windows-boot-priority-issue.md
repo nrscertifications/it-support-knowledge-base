@@ -2,9 +2,9 @@
 
 ## Incident Summary
 
-**Request Type:** Endpoint Hardware / OS Troubleshooting
-**Environment:** Windows OS / BIOS Firmware
-**Reported Issue:** Endpoint failed to initialize the operating system during startup with a drive-related boot error.
+- **Request Type:** Endpoint Hardware / OS Troubleshooting
+- **Environment:** Windows OS / BIOS Firmware
+- **Reported Issue:** Endpoint failed to initialize the operating system during startup with a drive-related boot error.
 
 ## Triage & Symptoms
 

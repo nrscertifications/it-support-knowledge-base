@@ -2,9 +2,9 @@
 
 ## Incident Summary
 
-**Request Type:** Mobile Device Support & Management / Data Migration
-**Environment:** Samsung Android (New Provisioning)
-**Reported Issue:** Post-migration, the end-user reported that unknown contacts belonging to another individual were populating in their device's native Contacts application.
+- **Request Type:** Mobile Device Support & Management / Data Migration
+- **Environment:** Samsung Android (New Provisioning)
+- **Reported Issue:** Post-migration, the end-user reported that unknown contacts belonging to another individual were populating in their device's native Contacts application.
 
 ## Triage & Symptoms
 
