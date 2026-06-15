@@ -1,133 +1,52 @@
-# IT Support Troubleshooting Notes
+# IT Support & Help Desk Knowledge Base
 
-This repository contains practical IT support troubleshooting notes based on real and realistic end-user support scenarios. The goal of this project is to document how I approach technical problems step by step: identifying symptoms, checking likely causes, applying safe troubleshooting steps, confirming the fix, and writing clear notes that another technician or user could follow.
+## Overview
 
-This portfolio is focused on IT Support, Help Desk, Service Desk, Desktop Support, and Technical Support roles.
+This repository contains a collection of standardized troubleshooting runbooks, incident reports, and technical documentation based on real-world end-user support scenarios.
 
----
+The objective of this Knowledge Base (KB) is to establish structured problem-solving workflows, demonstrating methodical triage, root-cause analysis, and clear technical handoff documentation.
 
-## Purpose of This Repository
+## Documentation Standards
 
-The purpose of this repository is to demonstrate practical troubleshooting ability, clear documentation, and structured problem-solving in common IT support situations.
+All case studies within this repository adhere to standard IT ticketing and KB formats, emphasizing:
 
-These notes are written to show:
+* **Symptom Isolation:** Avoiding assumptions by gathering factual system and user data.
+* **Non-Destructive Triage:** Applying safe, step-by-step troubleshooting before escalating or altering core system configurations.
+* **Root Cause Analysis (RCA):** Identifying the underlying fault rather than just addressing the symptoms.
+* **Resolution & Verification:** Documenting the applied fix and the steps taken to validate service restoration.
 
-- How I gather information from the user or system
-- How I identify likely causes
-- How I avoid jumping directly to assumptions
-- How I document troubleshooting steps clearly
-- How I confirm whether an issue is resolved
-- How I explain technical problems in a professional and user-friendly way
+## Knowledge Base Index
 
----
+### Endpoint & OS Support
 
-## Troubleshooting Approach Used
+* [Windows Boot Priority & BIOS Configuration](case-studies/windows-boot-priority-issue.md)
+* [Windows System Performance & Cleanup](case-studies/windows-slow-performance-cleanup.md) *(Planned)*
 
-Most case studies in this repository follow a consistent troubleshooting format:
+### Networking & Connectivity
 
-1. Issue Summary
-2. Environment  
-3. Symptoms Observed  
-4. Initial Checks  
-5. Troubleshooting Steps  
-6. Root Cause or Likely Cause  
-7. Resolution  
-8. Verification  
-9. Skills Demonstrated  
-10. Lessons Learned  
+* [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md) *(Planned)*
 
-This structure is designed to reflect the type of clear documentation expected in IT support environments using tickets, internal knowledge bases, or escalation notes.
+### Mobile Device Support & Management
 
----
+* [Android Data Migration & Account Sync Resolution](case-studies/android-data-sync-sim-issue.md)
 
-## Case Studies
+### Hardware & Security
 
-| Case Study | Area | Status |
-|---|---|---|
-| Windows Boot Priority / BIOS Boot Device Issue | Windows / BIOS / Boot Troubleshooting | completed |
-| Windows Slow Performance Cleanup | Windows Support / Endpoint Troubleshooting | Planned |
-| Internet or Wi-Fi Connectivity Troubleshooting | Networking / User Support | Planned |
-| Android Data Sync and SIM Connectivity Issue | Mobile Device Support | completed |
-| Anti-Malware Setup and Endpoint Protection | Security / Endpoint Support | Planned |
-| Hardware or Peripheral Recommendation | User Support / Hardware | Planned |
+* [Anti-Malware Setup & Endpoint Protection](case-studies/anti-malware-endpoint-setup.md) *(Planned)*
+* [Hardware & Peripheral Lifecycle](case-studies/hardware-peripheral-recommendation.md) *(Planned)*
 
-More troubleshooting notes will be added as this repository develops.
+## Supported Environments & Tools
 
----
-
-## Example Support Areas Covered
-
-This repository may include troubleshooting notes related to:
-
-- Windows startup and boot issues
-- BIOS or boot-order configuration
-- Windows performance issues
-- Internet and Wi-Fi connectivity problems
-- Basic network troubleshooting
-- Android device support
-- SIM and cellular connectivity issues
-- Data backup and synchronization
-- Antivirus and anti-malware setup
-- Software conflicts and basic system cleanup
-- Peripheral and hardware recommendations
-- End-user support documentation
-
----
-
-## Skills Demonstrated
-
-This repository is intended to demonstrate practical skills relevant to IT support roles, including:
-
-- Windows troubleshooting
-- Basic BIOS and boot configuration awareness
-- End-user technical support
-- Network connectivity troubleshooting
-- Mobile device troubleshooting
-- Endpoint security awareness
-- Hardware and peripheral support
-- Clear technical documentation
-- Root-cause thinking
-- Step-by-step problem resolution
-- Professional communication for non-technical users
-
----
-
-## Tools and Environments
-
-Examples in this repository may reference tools and environments such as:
-
-- Windows 10 / Windows 11
-- Older Windows environments such as Windows XP, where relevant
-- BIOS / legacy boot menus
-- Android devices
-- Wi-Fi and internet connectivity settings
-- Antivirus and anti-malware tools
-- Basic command-line tools
-- User-facing support workflows
-
----
-
-## Documentation Style
-
-The notes in this repository are written in a professional support-documentation style. The goal is not only to show the final fix, but also to show the reasoning process behind the troubleshooting.
-
-Each note is written so that another technician, hiring manager, or recruiter can quickly understand:
-
-- What the problem was
-- What checks were performed
-- What action was taken
-- Why the fix made sense
-- How the result was verified
-
----
+* **Operating Systems:** Windows 10/11, Windows OS / BIOS Firmware, Android OS.
+* **Hardware:** Endpoint laptops/desktops, BIOS/UEFI firmware, mobile devices and peripherals.
+* **Core Concepts:** Boot sequencing, cloud account synchronization, endpoint troubleshooting, mobile device support and management.
 
 ## Repository Structure
+This repository is organized to separate active case studies from templates and configuration guidelines:
 
 ```text
 it-support-troubleshooting-notes/
-│
 ├── README.md
-│
 ├── case-studies/
 │   ├── windows-boot-priority-issue.md
 │   ├── windows-slow-performance-cleanup.md
@@ -135,6 +54,5 @@ it-support-troubleshooting-notes/
 │   ├── android-data-sync-sim-issue.md
 │   ├── anti-malware-endpoint-setup.md
 │   └── hardware-peripheral-recommendation.md
-│
-└── templates/:
+└── templates/
     └── troubleshooting-note-template.md

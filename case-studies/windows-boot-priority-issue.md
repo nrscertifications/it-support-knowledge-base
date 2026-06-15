@@ -1,43 +1,32 @@
-# IT Support & Help Desk Knowledge Base
+# Incident Report: Windows Boot Failure & BIOS Priority Configuration
 
-## Overview
+## Incident Summary
 
-This repository contains a collection of standardized troubleshooting runbooks, incident reports, and technical documentation based on real-world end-user support scenarios.
+**Request Type:** Endpoint Hardware / OS Troubleshooting
+**Environment:** Windows OS / BIOS Firmware
+**Reported Issue:** Endpoint failed to initialize the operating system during startup with a drive-related boot error.
 
-The objective of this Knowledge Base (KB) is to establish structured problem-solving workflows, demonstrating methodical triage, root-cause analysis, and clear technical handoff documentation.
+## Triage & Symptoms
 
-## Documentation Standards
+* System failed to load the Windows Boot Manager.
+* Pre-boot sequence presented an error indicating the system was attempting to boot from an invalid or non-bootable volume.
+* Initial physical inspection confirmed no external USB media, optical drives, or peripherals were overriding the boot sequence.
 
-All case studies within this repository adhere to standard IT ticketing and KB formats, emphasizing:
+## Root Cause Analysis
 
-* **Symptom Isolation:** Avoiding assumptions by gathering factual system and user data.
-* **Non-Destructive Triage:** Applying safe, step-by-step troubleshooting before escalating or altering core system configurations.
-* **Root Cause Analysis (RCA):** Identifying the underlying fault rather than just addressing the symptoms.
-* **Resolution & Verification:** Documenting the applied fix and the steps taken to validate service restoration.
+The BIOS boot priority sequence was misconfigured. The system's firmware was listing multiple similar hard drive identifiers. The primary boot target was directed to a secondary, non-bootable storage partition/drive rather than the primary OS volume, causing the bootloader to fail.
 
-## Knowledge Base Index
+## Remediation Steps
 
-### Endpoint & OS Support
+1. **Hardware Audit:** Verified all external storage devices were disconnected to rule out external boot interference.
+2. **Firmware Access:** Interrupted the boot sequence to access the BIOS setup utility.
+3. **Boot Sequence Review:** Navigated to the Boot Priority/Device Order configuration tab.
+4. **Identifier Matching:** Cross-referenced the error code's drive identifier with the BIOS boot list. Identified multiple conflicting HDD entries (e.g., HDD01, HDD02).
+5. **Configuration Correction:** Demoted the incorrect boot volume and elevated the primary internal OS drive to the top of the boot sequence.
+6. **Save & Exit:** Committed the BIOS changes and initiated a warm reboot.
 
-* [Windows Boot Priority & BIOS Configuration](case-studies/windows-boot-priority-issue.md)
-* [Windows System Performance & Cleanup](case-studies/windows-slow-performance-cleanup.md) *(Planned)*
+## Verification & Post-Incident Review
 
-### Networking & Connectivity
-
-* [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md) *(Planned)*
-
-### Mobile Device Support & Management
-
-* [Android Data Migration & Account Sync Resolution](case-studies/android-data-sync-sim-issue.md)
-
-### Hardware & Security
-
-* [Anti-Malware Setup & Endpoint Protection](case-studies/anti-malware-endpoint-setup.md) *(Planned)*
-* [Hardware & Peripheral Lifecycle](case-studies/hardware-peripheral-recommendation.md) *(Planned)*
-
-## Supported Environments & Tools
-
-* **Operating Systems:** Windows 10/11, Windows OS / BIOS Firmware, Android OS.
-* **Hardware:** Endpoint laptops/desktops, BIOS/UEFI firmware, mobile devices and peripherals.
-* **Core Concepts:** Boot sequencing, cloud account synchronization, endpoint troubleshooting, mobile device support and management.
+* **Verification:** Monitored the startup sequence. The system successfully bypassed the previous drive error and loaded the Windows OS normally.
+* **Technical Note:** Validating firmware boot priority is a mandatory preliminary step for OS-not-found errors. This non-destructive check prevents technicians from making assumptions about catastrophic drive failure or attempting unnecessary OS reinstallations.
 
