@@ -2,21 +2,18 @@
 
 ## Overview
 
-This repository contains troubleshooting runbooks, incident reports, and technical documentation based on end-user support scenarios.
+This repository contains a collection of standardized troubleshooting runbooks, incident reports, and technical documentation based on real-world end-user support scenarios.
 
-The purpose of this knowledge base is to document structured problem-solving workflows, including initial triage, symptom isolation, root cause analysis, resolution steps, and verification.
-
-The cases in this repository are written in a format similar to internal IT support notes or ticket documentation. Each case focuses on clear troubleshooting logic, safe remediation, and practical support handoff details.
+The objective of this Knowledge Base (KB) is to establish structured problem-solving workflows, demonstrating methodical triage, root-cause analysis, and clear technical handoff documentation.
 
 ## Documentation Standards
 
-All case studies in this repository follow a consistent support documentation format:
+All case studies within this repository adhere to standard IT ticketing and KB formats, emphasizing:
 
-* Symptom isolation: Gather factual system and user details before making assumptions.
-* Non-destructive triage: Use safe troubleshooting steps before changing system settings or escalating.
-* Root cause analysis: Identify the underlying issue instead of only documenting the visible symptom.
-* Resolution and verification: Record the fix and confirm that normal service was restored.
-* Support handoff clarity: Document enough context for another technician or support tier to continue if needed.
+* **Symptom Isolation:** Avoiding assumptions by gathering factual system and user data.
+* **Non-Destructive Triage:** Applying safe, step-by-step troubleshooting before escalating or altering core system configurations.
+* **Root Cause Analysis (RCA):** Identifying the underlying fault rather than just addressing the symptoms.
+* **Resolution & Verification:** Documenting the applied fix and the steps taken to validate service restoration.
 
 ## Knowledge Base Index
 
@@ -29,7 +26,7 @@ All case studies in this repository follow a consistent support documentation fo
 
 * [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md) *(Planned)*
 
-### Mobile Device Support & Provisioning
+### Mobile Device Support & Management
 
 * [Android Data Migration & Account Sync Resolution](case-studies/android-data-sync-sim-issue.md)
 
@@ -40,11 +37,11 @@ All case studies in this repository follow a consistent support documentation fo
 
 ## Supported Environments & Tools
 
-* Operating Systems: Windows 10/11, legacy Windows systems, Android OS
-* Hardware: Laptops, desktops, BIOS/UEFI firmware, mobile devices, peripherals
-* Support Areas: Boot configuration, endpoint troubleshooting, account synchronization, mobile data migration, hardware triage
+* **Operating Systems:** Windows 10/11, Windows OS / BIOS Firmware, Android OS.
+* **Hardware:** Endpoint laptops/desktops, BIOS/UEFI firmware, mobile devices and peripherals.
+* **Core Concepts:** Boot sequencing, cloud account synchronization, endpoint troubleshooting, mobile device support and management.
 
-## Repository Structure
+### Repository Structure
 This repository is organized to separate active case studies from templates and configuration guidelines:
 
 ```text
@@ -57,5 +54,7 @@ it-support-troubleshooting-notes/
 │   ├── android-data-sync-sim-issue.md
 │   ├── anti-malware-endpoint-setup.md
 │   └── hardware-peripheral-recommendation.md
+└── templates/
+    └── troubleshooting-note-template.md
 └── templates/
     └── troubleshooting-note-template.md
