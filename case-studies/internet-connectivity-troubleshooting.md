@@ -1,4 +1,4 @@
-# Incident Report: Internet & Wi-Fi Connectivity Triage
+# Incident Report: Internet & Wi-Fi Connectivity Troubleshooting
 
 ## Incident Summary
 

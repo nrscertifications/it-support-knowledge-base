@@ -24,7 +24,7 @@ All case studies within this repository adhere to standard IT ticketing and KB f
 
 ### Networking & Connectivity
 
-* [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md)
+* [Internet & Wi-Fi Connectivity Troubleshooting](case-studies/internet-connectivity-troubleshooting.md)
 
 ### Mobile Device Support & Management
 
