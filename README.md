@@ -20,20 +20,20 @@ All case studies within this repository adhere to standard IT ticketing and KB f
 ### Endpoint & OS Support
 
 * [Windows Boot Priority & BIOS Configuration](case-studies/windows-boot-priority-issue.md)
-* [Windows System Performance & Cleanup](case-studies/windows-slow-performance-cleanup.md) *(Planned)*
+* [Windows System Performance & Cleanup](case-studies/windows-slow-performance-cleanup.md)
 
 ### Networking & Connectivity
 
-* [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md) *(Planned)*
+* [Internet & Wi-Fi Connectivity Triage](case-studies/internet-connectivity-troubleshooting.md)
 
 ### Mobile Device Support & Management
 
-* [Android Data Migration & Account Sync Resolution](case-studies/android-data-sync-sim-issue.md)
+* [Android Data Migration & Account Sync Resolution](case-studies/android-data-migration-and-contact-sync.md)
 
 ### Hardware & Security
 
-* [Anti-Malware Setup & Endpoint Protection](case-studies/anti-malware-endpoint-setup.md) *(Planned)*
-* [Hardware & Peripheral Lifecycle](case-studies/hardware-peripheral-recommendation.md) *(Planned)*
+* [Anti-Malware Setup & Endpoint Protection](case-studies/anti-malware-endpoint-setup.md)
+* [Hardware & Peripheral Lifecycle](case-studies/hardware-peripheral-recommendation.md)
 
 ## Supported Environments & Tools
 
@@ -45,13 +45,13 @@ All case studies within this repository adhere to standard IT ticketing and KB f
 This repository is organized to separate active case studies from templates and configuration guidelines:
 
 ```text
-it-support-troubleshooting-notes/
+it-support-knowledge-base/
 ├── README.md
 ├── case-studies/
 │   ├── windows-boot-priority-issue.md
 │   ├── windows-slow-performance-cleanup.md
 │   ├── internet-connectivity-troubleshooting.md
-│   ├── android-data-sync-sim-issue.md
+│   ├── android-data-migration-and-contact-sync.md
 │   ├── anti-malware-endpoint-setup.md
 │   └── hardware-peripheral-recommendation.md
 └── templates/
