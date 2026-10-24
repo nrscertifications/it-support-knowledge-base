@@ -47,6 +47,7 @@ The focus is on non-destructive troubleshooting, clear documentation, and realis
 * [Anti-Malware Setup & Endpoint Protection](runbooks/anti-malware-endpoint-setup.md)
 * [Hardware & Peripheral Lifecycle Recommendation](runbooks/hardware-peripheral-recommendation.md)
 * [HP Smart Printing Cancellation Error](runbooks/hp-smart-printing-cancellation-error.md)
+* [Keyboard Backspace Key Not Responding](runbooks/keyboard-backspace-key-not-responding.md)
 
 ---
 
@@ -55,13 +56,14 @@ The focus is on non-destructive troubleshooting, clear documentation, and realis
 ### Printing & Peripheral Support
 
 * [Troubleshooting Windows Printer Cancellation Errors](guides/windows-printer-cancellation-troubleshooting.md)
+* [Troubleshooting a Single Keyboard Key Not Responding in Windows](guides/windows-keyboard-key-not-responding.md)
 
 ---
 
 ## Supported Environments & Tools
 
 * **Operating Systems:** Windows 10/11, Windows Server fundamentals, Android OS, Ubuntu/Linux basics
-* **Endpoint Support:** Laptops, desktops, BIOS/UEFI firmware, printers, peripherals, mobile devices
+* **Endpoint Support:** Laptops, desktops, BIOS/UEFI firmware, printers, keyboards, peripherals, mobile devices
 * **Networking Concepts:** Wi-Fi/Ethernet troubleshooting, DNS/DHCP basics, gateway validation, network adapter checks
 * **Security Concepts:** Anti-malware setup, endpoint protection, user awareness, safe remediation practices
 * **Documentation:** Incident reports, troubleshooting runbooks, step-by-step support guides, RCA notes, Markdown, Git/GitHub
@@ -86,13 +88,17 @@ The focus is on non-destructive troubleshooting, clear documentation, and realis
 it-support-knowledge-base/
 ├── README.md
 ├── guides/
+│   ├── windows-keyboard-key-not-responding.md
 │   └── windows-printer-cancellation-troubleshooting.md
 ├── images/
-│   └── hp-smart-printing-cancellation/
-│       ├── 01-hp-smart-print-dialog.png
-│       ├── 02-hp-smart-print-cancelled.png
-│       ├── ...
-│       └── 23-remove-hp-smart-printing-virtual-printer.png
+│   ├── hp-smart-printing-cancellation/
+│   │   ├── 01-hp-smart-print-dialog.png
+│   │   ├── ...
+│   │   └── 23-remove-hp-smart-printing-virtual-printer.png
+│   └── keyboard-backspace-key/
+│       ├── 01-backspace-key-no-response.png
+│       ├── 02-on-screen-keyboard-backspace-test.png
+│       └── 03-keyboard-checker-backspace-not-detected.png
 └── runbooks/
     ├── android-data-migration-and-contact-sync.md
     ├── anti-malware-endpoint-setup.md
@@ -100,6 +106,7 @@ it-support-knowledge-base/
     ├── hp-smart-printing-cancellation-error.md
     ├── hyper-v-windows-11-enterprise-tpm-host-os-compatibility.md
     ├── internet-connectivity-troubleshooting.md
+    ├── keyboard-backspace-key-not-responding.md
     ├── windows-boot-priority-issue.md
     └── windows-slow-performance-cleanup.md
 ```
