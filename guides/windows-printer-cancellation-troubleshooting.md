@@ -130,7 +130,7 @@ In the example incident, the physical queue appeared as:
 
 **HP LaserJet M109-M112 [NPI1AB250] / HP LaserJet M110w**
 
-![Direct PDF print dialog using the physical HP queue](../images/hp-smart-printing-cancellation/12-direct-pdf-print-dialog.png)
+![Direct PDF print dialog using the physical HP queue](../images/hp-smart-printing-cancellation/12-direct-pdf-print-dialog.jpeg)
 
 The Windows queue briefly showed an error state, but the physical document printed successfully. Always verify the actual output before treating a transient queue message as the final result.
 
